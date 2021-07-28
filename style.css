@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+    color: #575757;
+    line-height: .5em;
+}
+.orange-color{
+    color: #FB934A;
+}
+.halfwidth a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(#FB974B,#FE492E);
+    border-radius: 2em;
+    color: white;
+}
+.flexible-container{
+    display: flex;
+}
+.halfwidth{
+    width: 50%;
+}
+.top-banner{
+    padding: 50px;
+}
+.halfwidth img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.contact-me{
+    background-image: url(images/contact-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 100px 0px 0px;
+}
+.contact-me img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-top: 60px;
+}
+.recipies{
+    padding: 50px;
+    text-align: center;
+}
+.recipie{
+    text-align: left;
+}
+
+.paragraph-length{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.single-item img{
+    width: 100%;
+}
+.single-item{
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px 5px rgb(223, 220, 220);
+    padding: 10px;
+    width: 30%;
+    margin-right: 5%;
+}
+.single-item:nth-child(3) {
+    margin-right: 0;
+}
+.followers{
+    padding: 50px;
+}
+.youtube, .instagram, .dribble{
+    width: 33%;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    height: 200px;
+    padding: 50px;
+    background-color: black;
+    color: blanchedalmond;
+}
+.social-media{
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px 5px rgb(223, 220, 220);
+    padding: 30px 0;
+}
